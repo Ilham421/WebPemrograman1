@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas HTML Murni</title>
+</head>
+
+<body>
+    <h1>Data Mahasiswa</h1>
+    <b>NIM: </b>231011403251 <br>
+    <b>Nama: </b>Mohamad Ilham <br>
+    <b>Kelas: </b> 05TPLP015 <br> <br>
+
+    <!-- Bagian dari Table -->
+     <table border="1" cellpadding="8" cellspacing="0">
+        <tr bgcolor="lightblue">
+            <th>NIM</th>
+            <th>Nama</th>
+            <th>Kelas</th>
+        </tr>
+        <tr bgcolor="lightgrey">
+            <td>231011403251</td>
+            <td>Mohamad Ilham</td>
+            <td>05TPLP015</td>
+        </tr>
+     </table>
+
+     <!-- Bagian dari Form -->
+     <form action="">
+        <h2>Formulir Pendaftaran</h2>
+        <label>NIM: 
+            <input type="text" name="nim" value="231011403251">
+        </label>
+
+        <br><br>
+        <label for="nama">Nama: 
+            <input type="text" name="nama" value="Mohamad Ilham">
+        </label>
+        <br><br>
+
+        <label for="kelas">Kelas: 
+            <select name="kelas" id="kelas">
+                <option value="05TPLP015">05TPLP015</option>
+                <option value="05TPLP014">05TPLP014</option>
+                <option value="05TPLP013">05TPLP013</option>
+                <option value="05TPLP012">05TPLP012</option>
+            </select>
+        </label>
+        <br><br>
+
+        <label for="setuju">
+            <input type="checkbox" name="setuju" value="setuju"> Saya menyetujui syarat dan ketentuan yang berlaku.
+        </label>
+        <br><br>
+
+        <input type="submit" value="Kirim">
+        <input type="submit" values="Reset">
+     </form>
+
+</body>
+</html>
